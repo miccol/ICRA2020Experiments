@@ -36,7 +36,7 @@ In Unix-based operating system, open a terminal and run the following commands:
 ```
 
 ### Windows
-In Windows, run the`[https://cmake.org](https://cmake.org/)`.
+In Windows, run `[Cmake](https://cmake.org/)`.
 Open the visual studio solution file (`.sln`)
 
 
