@@ -4,7 +4,9 @@
 
 # Simulated Experiments for the paper: Act, Perceive, and Plan in Belief Space for Robot Localization.
 
-In this repository, you will find the code related to the experiments of the paper  "Act, Perceive, and Plan in Belief Space for Robot Localization" Submitted at ICRA2020  by Michele Colledanchise, Damiano Malafronte, and Lorenzo Natale.
+In this repository, you will find the code related to the experiments of the paper: <br>
+"Act, Perceive, and Plan in Belief Space for Robot Localization" <br>
+Submitted at ICRA2020 by Michele Colledanchise, Damiano Malafronte, and Lorenzo Natale.
 
 ## Dependencies
 
