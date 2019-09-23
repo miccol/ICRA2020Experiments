@@ -408,12 +408,12 @@ int main()
     bool compare_uniform = true;
     bool save_results_on_file = true;
 
-    //run_comparison(size_x, size_y, N_OF_EXPERIMENS, compare_uniform, save_results_on_file);
+    run_comparison(size_x, size_y, N_OF_EXPERIMENS, compare_uniform, save_results_on_file);
 
     size_x = 16;
     size_y = 16;
 
-    //run_comparison(size_x, size_y, N_OF_EXPERIMENS, compare_uniform, save_results_on_file);
+    run_comparison(size_x, size_y, N_OF_EXPERIMENS, compare_uniform, save_results_on_file);
 
     size_x = 50;
     size_y = 50;
