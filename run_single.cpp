@@ -36,37 +36,26 @@ void play(Workspace* ws, int X_MAX, int Y_MAX, int start_physical_state,
 
     for (int s : states_with_A)
     {
-        states_with_A.push_back(s);
         myfile_setup << s << ",";
     }
 
     myfile_setup << endl;
 
-    for (int s : states_with_A)
-    {
-        states_with_A.push_back(s);
-        myfile_setup << s << ",";
-    }
-
-    myfile_setup << endl;
 
     for (int s : states_with_B)
     {
-        states_with_B.push_back(s);
         myfile_setup << s << ",";
     }
 
     myfile_setup << endl;
     for (int s : states_with_C)
     {
-        states_with_C.push_back(s);
         myfile_setup << s << ",";
     }
 
     myfile_setup << endl;
     for (int s : states_with_D)
     {
-        states_with_D.push_back(s);
         myfile_setup << s << ",";
     }
 
@@ -298,7 +287,7 @@ void run_single(const int size_x, const int size_y,
 
 int main()
 {
-    // Read the readmine to understand how to edit these
+    // Read the readme to understand how to edit these
     const int size_x = 5;
     const int size_y = 5;
 
@@ -310,7 +299,7 @@ int main()
     const std::vector<int> states_with_D = {12, 13, 14, 15};
 
 
-    //run_single(size_x, size_y, initial_physical_state, states_with_A, states_with_B,states_with_C, states_with_D);
-    run_single_random(size_x, size_y); //use this to run a random workspace
+    run_single(size_x, size_y, initial_physical_state, states_with_A, states_with_B,states_with_C, states_with_D);
+    //run_single_random(size_x, size_y); //use this to run a random workspace
     return 0;
 }
